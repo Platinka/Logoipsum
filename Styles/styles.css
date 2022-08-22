@@ -6,11 +6,16 @@
 body {
     font-family: 'DM Sans', sans-serif;
 }
+.site {
+    max-width: 1920px;
+    margin: auto;       
+}
 /* Header */
 
 .container {    
     max-width: 1070;
-    margin: 0 auto;    
+    margin: 0 auto;  
+    padding: 0 190px 0;  
 }
 .header, .footer {
     background-color: 
