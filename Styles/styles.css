@@ -18,9 +18,8 @@ body {
     padding: 0 190px 0;  
 }
 .header, .footer {
-    background-color: 
-    rgba(255, 113, 67, 0.27);
-    padding: 38px 0 48px;
+        padding: 38px 0 48px;
+    background: rgba(36, 161, 179, 0.46);
 }
 .header-flex, .footer-flex, .about, .subscribe, .plan-flex {
     display: flex;
@@ -38,11 +37,11 @@ body {
     font-size: 15px;
     line-height: 20px;
     letter-spacing: -0.468947px;
-    color: #696871;
+    color: #192657;
     text-decoration: none;
 }
 .nav-link:hover {
-    color: black;
+    color: rgb(35, 147, 169);
     transition: 300ms;
 }
 .button {
@@ -59,11 +58,15 @@ body {
     cursor: pointer;
 }
 .button-orange {
-    background: #FF7143;
+    background: #5284CF;
 }
 .button-orange:hover {
-    background: #eb4e19;
+    background: #10233e;
     transition: 500ms;
+}
+.logo {
+    width: 200px;
+    height: 50px;
 }
 /*Section 1*/
 .about {
@@ -87,9 +90,13 @@ color: #696871;
 max-width: 410px;
 margin-bottom: 50px;
 }
+.rocket {
+    width: 499px;
+height: 621px;
+border-radius: 40px;
+}
 .button-violet {
-    background: 
-    rgba(84, 84, 212, 1);
+    background: #2F6FD0;
 }
 .button-violet:hover {
     background: 
@@ -119,6 +126,7 @@ margin-bottom: 50px;
     color: #19191B;
     margin-bottom: 38px;
    }
+   
    .input {
     width: 302px;
     height: 60px;
@@ -160,7 +168,7 @@ margin-bottom: 50px;
     padding: 34px 0 27px;
    }
    .item:hover {
-    background: #FF7143;
+    background: #305FA7;
     box-shadow: 0px 32px 34px rgba(255, 112, 59, 0.317827);
     border-radius: 10px;
     transition: 500ms;
@@ -178,7 +186,7 @@ margin-bottom: 50px;
     transition: 500ms;
    }
    .item:hover .button-item {
-    background: #9F3919;
+    background: #122C55;
     color: white;
     transition: 500ms;
    }
